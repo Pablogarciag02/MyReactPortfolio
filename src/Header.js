@@ -5,8 +5,8 @@ export default function Header() {
   return (
     <div>
       <div class="flex justify-end mt-14 mr-24  invisible lg:visible">
-        <span class = "mr-8"><a href="mailto:pgarciag566@gmail.com">Contáctame</a></span>
-        <span class = "mr-8"><a href="https://drive.google.com/file/d/1CXXbnb9I8H2h2DM6dfzdsSiLOUfg7lL0/view?usp=sharing" target="_blank">Resumé</a></span>
+        <span class = "mr-8 hover:underline"><a href="mailto:pgarciag566@gmail.com">Contáctame</a></span>
+        <span class = "mr-8 hover:underline"><a href="https://drive.google.com/file/d/1CXXbnb9I8H2h2DM6dfzdsSiLOUfg7lL0/view?usp=sharing" target="_blank">Resumé</a></span>
 
         <li class ="inline list-none mx-4"><a href="https://github.com/Pablogarciag02" target="_blank"><img src={process.env.PUBLIC_URL+"favicons/github.png"}
           width="20px"
