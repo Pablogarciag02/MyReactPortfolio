@@ -4,7 +4,7 @@ export default function Aboutme() {
   return (
     <div className = "mt-16">
         <div className ="justify-center my-5 md:w-5/6">
-            <h1 class = "text-3xl font-medium mx-8 md:mx-32 md:text-6xl md:font-light xl:mx-64 2xl:ml-96">Full Stack Developer and Finance Student</h1>
+            <h1 className = "text-3xl font-medium mx-8 md:mx-32 md:text-6xl md:font-light xl:mx-64 2xl:ml-96">Full Stack Developer and Finance Student</h1>
         </div>
             
         <div className ="justify-center my-5 md:flex md:justify-between my-5">
