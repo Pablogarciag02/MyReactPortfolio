@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './Header';
-import Modal from './Modal';
-import Aboutme from './Aboutme';
-import Projects from './Projects';
+import Header from './Components/Header';
+import Modal from './Components/Modal';
+import Aboutme from './Components/Aboutme';
+import Projects from './Components/Projects';
 
 function App() {
   return (
