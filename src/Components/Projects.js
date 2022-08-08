@@ -1,4 +1,11 @@
 import React from 'react'
+import Codingquiz from './Images/Projectimgs/Codingquiz'
+import Cryptoassetmgr from './Images/Projectimgs/Cryptoassetmgr'
+import Employeetracker from './Images/Projectimgs/Employeetracker'
+import Pinit from './Images/Projectimgs/Pinit'
+import Techblog from './Images/Projectimgs/Techblog'
+import Weatherdasboard from './Images/Projectimgs/Weatherdasboard'
+import Workday from './Images/Projectimgs/Workday'
 
 export default function Projects() {
   return (
@@ -6,7 +13,7 @@ export default function Projects() {
 
         <div className = "justify-center p-4 mx-8 rounded-lg">
             <h2 className ="text-xl text-center my-8 font-semibold">Crypto Asset Manager</h2>
-            <img className ="w-64 m-auto rounded-lg hover:w-96 hover:ease-in duration-300" src={process.env.PUBLIC_URL+"favicons/cryptoAssetmgr.jpg"}></img>
+            <Codingquiz />
             <p className ="text-center my-2 text-lg">Real time crypto prices. </p>
             <div className = "w-full flex flex-col">
                 <a className= "bg-black text-white rounded-lg py-2 my-4 text-center" href="https://github.com/richardguarnieri/personal-asset-manager" target="_blank"><button>Github</button></a>
@@ -16,7 +23,7 @@ export default function Projects() {
 
         <div className = "justify-center p-4 mx-8 rounded-lg">
             <h2 className ="text-xl text-center my-8 font-semibold">Pin-it</h2>
-            <img className ="w-64 hover:w-96 hover:ease-in duration-300  m-auto rounded-lg" src={process.env.PUBLIC_URL+"favicons/pinit.png"}></img>
+            <Cryptoassetmgr />
             <p className ="text-center my-2 text-lg">Organize all the applications you use every day, having everything within your main internet access. </p>
             <div className = "w-full flex flex-col">
                 <a className= "bg-black text-white rounded-lg py-2 my-4 text-center" href="https://github.com/AlejandroBahSan/Pin-it" target="_blank"><button>Github</button></a>
@@ -26,7 +33,7 @@ export default function Projects() {
 
         <div className = "justify-center p-4 mx-8 rounded-lg">
             <h2 className ="text-xl text-center my-8 font-semibold">Tech and Finance blog</h2>
-            <img className ="w-64 m-auto rounded-lg hover:w-96 hover:ease-in duration-300" src={process.env.PUBLIC_URL+"favicons/techblog.png"}></img>
+            <Employeetracker />
             <p className ="text-center my-2 text-lg">Post and talk about exciting things in this Tech and Finance Blog</p>
             <div className = "w-full flex flex-col">
                 <a className= "bg-black text-white rounded-lg py-2 my-4 text-center" href="https://github.com/Pablogarciag02/Tech-Blog" target="_blank"><button>Github</button></a>
@@ -36,7 +43,7 @@ export default function Projects() {
 
         <div className = "justify-center p-4 mx-8 rounded-lg">
             <h2 className ="text-xl text-center my-8 font-semibold">EmployeeTracker-SQL</h2>
-            <img className ="w-64 m-auto rounded-lg hover:w-96 hover:ease-in duration-300" src={process.env.PUBLIC_URL+"favicons/employeeTracker.jpeg"}></img>
+            <Pinit />
             <p className ="text-center my-2 text-lg">Manage and direct all employees through a database prompt.</p>
             <div className = "w-full flex flex-col">
                 <a className= "bg-black text-white rounded-lg py-2 my-4 text-center" href="https://github.com/Pablogarciag02/EmployeeTracker-SQL" target="_blank"><button>Github</button></a>
@@ -45,7 +52,7 @@ export default function Projects() {
 
         <div className = "justify-center p-4 mx-8 rounded-lg">
             <h2 className ="text-xl text-center my-8 font-semibold">Weather Dashboard</h2>
-            <img className ="w-64 m-auto rounded-lg hover:w-96 hover:ease-in duration-300" src={process.env.PUBLIC_URL+"favicons/weatherDashboard.jpg"}></img>
+            <Techblog />
             <p className ="text-center my-2 text-lg">Real time current weather and 5 day forecast.</p>
             <div className = "w-full flex flex-col">
                 <a className= "bg-black text-white rounded-lg py-2 my-4 text-center" href="https://github.com/Pablogarciag02/Real-Time-Weather-Info-SearchBar-" target="_blank"><button>Github</button></a>
@@ -55,7 +62,7 @@ export default function Projects() {
 
         <div className = "justify-center p-4 mx-8 rounded-lg ">
             <h2 className ="text-xl text-center my-8 font-semibold">Code Quiz</h2>
-            <img className ="w-64 m-auto rounded-lg hover:w-96 hover:ease-in duration-300" src={process.env.PUBLIC_URL+"favicons/codingQuiz.jpg"}></img>
+            <Weatherdasboard />
             <p className ="text-center my-2 text-lg">Coding Quiz to test your skills!</p>
             <div className = "w-full flex flex-col">
                 <a className= "bg-black text-white rounded-lg py-2 my-4 text-center" href="https://github.com/Pablogarciag02/HomeworkWeek4" target="_blank"><button>Github</button></a>
@@ -65,7 +72,7 @@ export default function Projects() {
 
         <div className = "justify-center p-4 mx-8 rounded-lg ">
             <h2 className ="text-xl text-center my-8 font-semibold">Work Day Scheduler</h2>
-            <img className ="w-64 m-auto rounded-lg hover:w-96 hover:ease-in duration-300" src={process.env.PUBLIC_URL+"favicons/workDay.jpg"}></img>
+            <Workday />
             <p className ="text-center my-2 text-lg">Very usefull for managing ones time!</p>
             <div className = "w-full flex flex-col">
                 <a className= "bg-black text-white rounded-lg py-2 my-4 text-center" href="https://github.com/Pablogarciag02/HomeworkWeek5" target="_blank"><button>Github</button></a>

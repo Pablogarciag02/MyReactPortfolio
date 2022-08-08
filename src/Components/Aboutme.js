@@ -1,4 +1,5 @@
 import React from 'react'
+import Startepic from './Images/Startepic'
 
 export default function Aboutme() {
   return (
@@ -12,7 +13,7 @@ export default function Aboutme() {
             <p>Full Stack developer with a passion for learning new and exciting things! Positive thinker interested in technology and financial trends.</p>
             <p className="mt-8">Advanced skills in HTML and CSS. Intermediate skills in Javascript front-end and back-end. Excelent in database management.</p>
             </div>
-            <img id="starterImg" className = "h-96 m-auto md:mr-32 xl:mr-64 2xl:mr-96 rounded-lg" src={process.env.PUBLIC_URL+"favicons/starterPic.jpg"}></img>
+            <Startepic />
         </div>
 
         <div className ="justify-center text-center mt-32 ">
